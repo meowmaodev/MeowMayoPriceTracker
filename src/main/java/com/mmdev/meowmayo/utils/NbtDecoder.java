@@ -46,7 +46,6 @@ public class NbtDecoder {
                 return null;
             }
 
-            @SuppressWarnings("unchecked")
             ListTag<CompoundTag> itemList = itemListTag.asCompoundTagList();
             CompoundTag itemRoot = itemList.get(0);
 
